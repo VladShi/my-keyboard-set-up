@@ -1,0 +1,87 @@
+<keymap version="1" name="My_Custom_split_GNOME" parent="Default for GNOME">
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift ctrl z" />
+  </action>
+  <action id="CloseEditorsGroup">
+    <keyboard-shortcut first-keystroke="shift alt f4" />
+  </action>
+  <action id="CodeFormatGroup">
+    <keyboard-shortcut first-keystroke="shift ctrl alt quote" />
+  </action>
+  <action id="CodeGPT.ContextMenuInlineEditAction">
+    <keyboard-shortcut first-keystroke="shift ctrl alt k" />
+  </action>
+  <action id="CodeGPT.FloatingMenuInlineEditAction">
+    <keyboard-shortcut first-keystroke="shift ctrl alt k" />
+  </action>
+  <action id="CodeGPT.GenerateGitCommitMessage">
+    <keyboard-shortcut first-keystroke="alt g" />
+  </action>
+  <action id="ConvertJavaToKotlin" />
+  <action id="Documentation.KeepTab">
+    <keyboard-shortcut first-keystroke="alt a" />
+  </action>
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="ctrl t" />
+  </action>
+  <action id="EditorDeleteToWordEndInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="ctrl numpad9" />
+  </action>
+  <action id="EditorDeleteToWordStartInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="ctrl numpad7" />
+  </action>
+  <action id="EditorMatchBrace">
+    <keyboard-shortcut first-keystroke="ctrl quote" />
+  </action>
+  <action id="EditorNextWordInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="ctrl numpad6" />
+  </action>
+  <action id="EditorNextWordInDifferentHumpsModeWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl numpad6" />
+  </action>
+  <action id="EditorPreviousWordInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="ctrl numpad4" />
+  </action>
+  <action id="EditorPreviousWordInDifferentHumpsModeWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl numpad4" />
+  </action>
+  <action id="EditorTabsGroup">
+    <keyboard-shortcut first-keystroke="shift ctrl alt f4" />
+  </action>
+  <action id="EditorToggleCase" />
+  <action id="FindUsagesMenuGroup">
+    <keyboard-shortcut first-keystroke="alt u" />
+  </action>
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="alt insert" />
+    <keyboard-shortcut first-keystroke="alt i" />
+  </action>
+  <action id="GoToCodeGroup">
+    <keyboard-shortcut first-keystroke="ctrl semicolon" />
+  </action>
+  <action id="IntentionActionAsAction_dev.turingcomplete.intellijdevelopertoolsplugin.javadependent.tool.editor.intention.TextCaseConverterJavaCodeIntentionAction">
+    <keyboard-shortcut first-keystroke="ctrl y" />
+  </action>
+  <action id="JumpToNextChange">
+    <keyboard-shortcut first-keystroke="shift alt back_space" />
+  </action>
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="alt insert" />
+    <keyboard-shortcut first-keystroke="alt i" />
+  </action>
+  <action id="ShelveChanges.UnshelveWithDialog" />
+  <action id="ShowPopupMenu">
+    <keyboard-shortcut first-keystroke="context_menu" />
+    <keyboard-shortcut first-keystroke="ctrl back_slash" />
+  </action>
+  <action id="Unwrap">
+    <keyboard-shortcut first-keystroke="alt b" />
+    <keyboard-shortcut first-keystroke="shift ctrl delete" />
+  </action>
+  <action id="Vcs.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="alt quote" />
+  </action>
+  <action id="Vcs.UpdateProject">
+    <keyboard-shortcut first-keystroke="shift ctrl m" />
+  </action>
+</keymap>

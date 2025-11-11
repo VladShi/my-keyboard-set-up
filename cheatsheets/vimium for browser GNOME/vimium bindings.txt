@@ -1,0 +1,25 @@
+# navigation with i(up), j(left), k(down), l(right) instead of h(left), j(down), k(up), l(right).
+# but it doesn't show up on the help page
+# mapkey j h
+# mapkey J H
+# mapkey i k
+# mapkey I K
+# mapkey k j
+# mapkey K J
+# mapkey h i
+# navigation with i(up), j(left), k(down), l(right) instead of h(left), j(down), k(up), l(right).
+# with display on the help page
+unmap j
+unmap J
+unmap k
+unmap h
+unmap H
+unmap i
+map k scrollDown
+map i scrollUp
+map j scrollLeft
+map h enterInsertMode
+map J goBack
+map I previousTab
+unmap zH
+map zJ scrollToLeft
